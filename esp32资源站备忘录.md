@@ -8,6 +8,8 @@ tags:
 
 [esp32、esp8266]  
 <https://gitee.com/jun-tian/awesome-esp/blob/main/README.md#https://gitee.com/link?target=http%3A%2F%2Fespressif.com%2Fen%2Fproducts%2Fhardware%2Fesp32%2Foverview>  
-嵌入式学习资源  
-<https://gitee.com/zhengnianli/EmbedSummary>
+[嵌入式学习资源]  
+<https://gitee.com/zhengnianli/EmbedSummary>  
+[esp8266/esp32]   
+ <http://www.mcublog.cn/category/esp8266/page/4/>
 
