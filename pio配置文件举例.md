@@ -78,3 +78,10 @@ test_ignore = test_desktop
 ```
 from   
 <https://docs.platformio.org/en/latest/projectconf/index.html>
+```
+upload_speed = 921600
+monitor_speed = 115200
+platform = espressif32 @1.8.0// **此处修改官方库为1.0.2（对应pio的1.8.0）**
+```
+![alt 我的图片](https://github.com/yang-yang-NO-1/test/blob/yang-yang-NO-1-patch-1/4.png?raw=true)
+***此处修改官方库为1.0.2（对应pio的1.8.0），图中为pio项目release可见1.0.1对应pio的1.6.0***
