@@ -8,6 +8,8 @@ tags:
 1. 申请GitHub账号和安装hexo框架见
 * https://zhuanlan.zhihu.com/p/60578464
 * https://zhuanlan.zhihu.com/p/26625249
+
+next配置见<https://zhuanlan.zhihu.com/p/60424755>
 2. 部署 Hexo 到 GitHub Pages修改_config.yml 文件末尾的 Deployment 部分，修改成如下,**注意repository末尾的``.git``**
 ```
 deploy:
