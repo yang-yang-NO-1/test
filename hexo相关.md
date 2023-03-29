@@ -24,3 +24,4 @@ git bash here
     hexo s              # 启动预览
     hexo d              # 部署
 ```
+# <font color=red>现在已使用vscode hexo插件实现在vscode中编辑、发布博客啦</font>
