@@ -1,7 +1,7 @@
 ---
 title: pio配置文件举例
 date: 2022-03-30 22:07:16
-tags:
+tags: esp
 ---
 # platformio.ini文件配置举例
 <!--more-->

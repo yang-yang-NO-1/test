@@ -1,7 +1,7 @@
 ---
 title: git、github、blog使用笔记
 date: 2022-04-20 11:53:09
-tags:
+tags: git
 ---
 # git命令、新建博客命令记录
 <!--more-->

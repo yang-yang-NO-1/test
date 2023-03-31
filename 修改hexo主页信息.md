@@ -1,7 +1,7 @@
 ---
 title: 修改hexo主页信息
 date: 2022-01-07 15:27:30
-tags:
+tags: hexo
 ---
 # 修改主页个人信息
 <!--more-->

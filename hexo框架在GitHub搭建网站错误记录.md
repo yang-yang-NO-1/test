@@ -1,7 +1,7 @@
 ---
 title: hexo框架在GitHub搭建网站错误记录
 date: 2022-01-06 18:20:52
-tags:
+tags: hexo
 ---
 # hexo框架在GitHub搭建网站错误记录
 <!--more-->
