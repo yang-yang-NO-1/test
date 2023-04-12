@@ -164,7 +164,7 @@ Selected interface 'wlan0'
 OK
 转自小莱沃
 ```
-或者 <https://zhuanlan.zhihu.com/p/101089893>
+或者<https://zhuanlan.zhihu.com/p/101089893>
 ## 命令简记
 ```
 iwconfig  //用于查看无线网络，如果你设备上有无线网卡此时可用此命令来查看

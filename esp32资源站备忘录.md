@@ -12,4 +12,10 @@ tags: esp
 <https://gitee.com/zhengnianli/EmbedSummary>  
 [esp8266/esp32]   
  <http://www.mcublog.cn/category/esp8266/page/4/>
+ # awtrix命令
+```
+sudo service awtrix start //Starting AWTRIX
+sudo service awtrix stop //Stop AWTRIX
+sudo service awtrix restart//AWTRIX Restart
+```
 
