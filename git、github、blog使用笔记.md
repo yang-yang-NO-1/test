@@ -3,7 +3,7 @@ title: git、github、blog使用笔记
 date: 2022-04-20 11:53:09
 tags: git
 ---
-# git命令、新建博客命令记录
+# git命令、新建博客命令记录（clone加速在http://后加gitclone.com/）
 <!--more-->
 ## git命令备忘
 ```

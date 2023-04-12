@@ -164,7 +164,7 @@ Selected interface 'wlan0'
 OK
 转自小莱沃
 ```
-
+或者 <https://zhuanlan.zhihu.com/p/101089893>
 ## 命令简记
 ```
 iwconfig  //用于查看无线网络，如果你设备上有无线网卡此时可用此命令来查看
@@ -172,6 +172,7 @@ lsusb   //查看usb,USB无线网卡是否已经被系统识别
 lsmod  //查看内核模块是否支持你的无线网卡
 sudo ifdown wlan0  //关闭wlan0
 sudo ifup wlan0  //启用wlan0
+sudo iwlist wlan0 scan | grep ESSID //检索附近的无线网络名称
 ```
 
 <div style="position: relative; padding: 30% 45%;">
