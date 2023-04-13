@@ -173,7 +173,34 @@ Selected interface 'wlan0'
 OK
 转自小莱沃
 ```
-简便方法在此：<https://zhuanlan.zhihu.com/p/101089893>
+# 简便方法在此（最终采取的方法）：<https://zhuanlan.zhihu.com/p/101089893>
+购买的5块多的usb无线网卡不支持发射，只能将它设置为station模式，将树莓派设置为ap模式，流程记录如下：
+```
+1.安装create_ap
+git clone https://github.com/oblique/create_ap 
+cd create_ap 
+make install
+2.安装依赖
+apt install util-linux procps hostapd iproute2 iw haveged dnsmasq
+3.开启热点(我的树莓派插上usb网卡后默认名字为wlan0，板载无线网卡变为wlan1)
+sudo create_ap wlan1 wlan0 awtrix 12345678
+如果上述命令报错，没有开启的话，有可能是你的wifi已经开启并做了从机，导致开启热点失败；可以先 'sudo ifconfig wlan0 down'，然后再输入上述命令。（第一次）
+4.设置wlan0为 DHCP 并自动连接WIFI
+sudo nano /etc/network/interfaces 
+# wlan1 自动获取IP
+auto wlan0
+iface wlan0 inet dhcp
+pre-up wpa_supplicant -Dwext -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -B
+5.使用sudo wpa_cli reconfigure命令启动连接
+pi@raspberrypi:~ $ sudo wpa_cli reconfigure
+Selected interface 'wlan0'
+OK
+6.设置开机开启热点
+sudo nano /etc/rc.local
+添加在exit 0
+sudo create_ap wlan1 wlan0 awtrix 12345678 &
+
+```
 双网卡配置<https://blog.csdn.net/weixin_48191138/article/details/107615067>
 <https://shumeipai.nxez.com/2022/06/11/raspberry-pi-internal-and-external-network-routing-configuration.html>
 ## 命令简记
