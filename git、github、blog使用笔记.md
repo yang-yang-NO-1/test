@@ -52,6 +52,9 @@ git push origin master:master
 git push --force origin master
 删除主机的分支可以使用 --delete 参数，以下命令表示删除 origin 主机的 master 分支：
 git push origin --delete master
+git版本回退并覆盖远程仓库
+git reset --hard HEAD^
+git push -f //此时如果用“git push”会报错，因为我们本地库HEAD指向的版本比远程库的要旧
 ```
 [git命令详细教程](https://www.runoob.com/git/git-basic-operations.html)   
 https://www.runoob.com/git/git-basic-operations.html
