@@ -22,6 +22,5 @@ V2EX：pypi.v2ex.com/simple
 sudo nano /etc/crontab
 按需添加即可
 00 07 * * * root python3 /home/pi/wechat-push-multi/main.py  //每天7点运行该py程序
-
 ```
 
