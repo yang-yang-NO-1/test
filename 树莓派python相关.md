@@ -23,4 +23,9 @@ sudo nano /etc/crontab
 按需添加即可
 00 07 * * * root python3 /home/pi/wechat-push-multi/main.py  //每天7点运行该py程序
 ```
-
+# 树莓派网络测速
+```
+sudo apt-get install speedtest-cli //安装speedtest
+speedtest //运行speedtest
+sudo apt-get remove speedtest-cli  //卸载speedtest
+```

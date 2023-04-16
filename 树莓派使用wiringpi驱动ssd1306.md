@@ -62,3 +62,5 @@ nano /etc/rc.local
 OLED源码地址https://gitee.com/langhun1996/raspberry-pie.git
 
 ```
+# 树莓派gpio
+![](树莓派使用wiringpi驱动ssd1306/20230416153743.png)
