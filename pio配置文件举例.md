@@ -3,7 +3,7 @@ title: pio配置文件举例
 date: 2022-03-30 22:07:16
 tags: esp
 ---
-# platformio.ini文件配置举例
+# platformio.ini文件配置举例<https://docs.platformio.org/en/latest/platforms/espressif32.html>
 <!--more-->
 
 ```
@@ -85,3 +85,7 @@ platform = espressif32 @1.8.0// **此处修改官方库为1.0.2（对应pio的1.
 ```
 ![alt 我的图片](https://github.com/yang-yang-NO-1/test/blob/yang-yang-NO-1-patch-1/4.png?raw=true)
 ***此处修改官方库为1.0.2（对应pio的1.8.0），图中为pio项目release可见1.0.1对应pio的1.6.0***
+# 或者在vscode的pio插件platform中查看pio库对应安装的版本号，添加至platform.ini文件platform字段
+![](pio配置文件举例/20230422185808.png)
+![](pio配置文件举例/20230422190216.png)
+# esp32 wrover添加spiram支持
